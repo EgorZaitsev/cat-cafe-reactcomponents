@@ -1,0 +1,13 @@
+.logo {
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 24px;
+
+  &__text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.2px;
+  }
+}

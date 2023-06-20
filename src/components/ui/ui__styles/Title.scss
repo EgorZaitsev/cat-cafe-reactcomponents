@@ -1,0 +1,30 @@
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50.6px;
+  margin: 0;
+}
+
+.title__left {
+  text-align: left;
+  align-self:flex-start;
+}
+
+.title__center {
+  text-align: center;
+  align-self: center;
+}
+
+.title__right {
+  align-self:flex-end;
+  text-align: right;
+}
+
+.title__small {
+ font-size: 24px;
+ line-height: 115%;
+}
+
+.title__large {
+  font-size: 44px;
+}

@@ -1,0 +1,23 @@
+.button {
+  width: 220px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #FF732B;
+  border: 0;
+  font-size: inherit;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  transition: background-color .1s ease;
+
+}
+
+.button:hover {
+  transition: background-color .1s ease;
+  background-color: #F35714;
+}
+
+.button:active {
+  transition: box-shadow .1s ease;
+  box-shadow: inset 0px 4px 0px rgba(0, 0, 0, 0.14);
+}

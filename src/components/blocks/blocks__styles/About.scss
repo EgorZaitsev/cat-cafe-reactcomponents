@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  background-color: #fff6d9;
+  
+  
+}
+
+
+
+.about__wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 3;
+}
+
+
+
+.about__description {
+  
+  max-width: 590px;
+}
+
+.about__worktime {
+  padding: 8px 8px;
+}
+
+.about__timestamp {
+  width: 292px;
+  height: 43px;
+  border-radius: 8px;
+  background-color: #FFEEAD;
+
+}
+
+.about__adress_logo {
+  padding-right: 10px;
+}
+
+.about__image {
+  width: 446px;
+  height: 446px;
+}
